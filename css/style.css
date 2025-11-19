@@ -1,0 +1,125 @@
+/* ======== ESTILO GENERAL ======== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f8f8;
+    color: #222;
+}
+
+/* ======== NAVBAR ======== */
+
+.navbar {
+    background: #b40000;  
+    padding: 12px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background: #7a0000;
+}
+
+.navbar a.active {
+    background: #ffffff;
+    color: #b40000;
+}
+
+/* ======== HEADER ======== */
+
+.main-header {
+    text-align: center;
+    padding: 25px 10px;
+    background: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.main-header h1 {
+    margin: 0;
+    color: #b40000;
+}
+
+/* ======== CONTENEDOR ======== */
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* ======== FORMULARIOS ======== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+}
+
+/* ======== BOTONES ======== */
+
+button {
+    background: #b40000;  
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #8a0000;
+}
+
+/* ======== RESULTADO ======== */
+
+.resultado {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f1f1f1;
+    border-left: 4px solid #b40000;
+    border-radius: 6px;
+}
+
+/* ======== FOOTER ======== */
+
+.main-footer {
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
